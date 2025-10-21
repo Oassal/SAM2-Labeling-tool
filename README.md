@@ -15,7 +15,8 @@ This repository provides a semi-automatic labeling pipeline for video and image 
 - **LabelMe export:** Convert masks and annotations to LabelMe JSON format
 
 ## Installation
-1. ```bash
+1. Clone and install SAM2 dependencies
+```bash
     git clone https://github.com/facebookresearch/sam2.git && cd sam2
 
     pip install -e .
