@@ -1,0 +1,19 @@
+05-12-2023
+20231205-105052398_split1
+__pycache__
+.vscode
+LabelMe_Dataset
+Old code
+.DS_Store
+data
+utils.py
+Tests
+labelme_dir.py
+points_data.json
+points.json
+raf
+points.txt
+sam2_hiera_large.pt
+utils.py
+SAM2_video.py
+labelme_dataset.py
