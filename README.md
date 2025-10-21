@@ -15,12 +15,19 @@ This repository provides a semi-automatic labeling pipeline for video and image 
 - **LabelMe export:** Convert masks and annotations to LabelMe JSON format
 
 ## Installation
-1. Clone the repository:
-   ```
+1. ```bash
+    git clone https://github.com/facebookresearch/sam2.git && cd sam2
+
+    pip install -e .
+    ```
+
+
+2. Clone the repository:
+   ```bash
    git clone https://github.com/Oassal/SAM2-Labeling-tool.git
    ```
-2. Install dependencies (recommended: use Anaconda):
-   ```
+3. Install dependencies (recommended: use Anaconda):
+   ```bash
    conda create -n SAM2 python=3.10
    conda activate SAM2
    pip install -r requirements.txt
@@ -35,7 +42,7 @@ Run the main pipeline with your video directory:
 ```bash
 python main.py --video_dir "path/to/videos" --frames_per_split 100 --objects_names object1 object2 object3 ...
 ```
-- --frames_per_split is the sampling value for each sequence, this value depends on the used GPU
+- `--frames_per_split` is the sampling value for each sequence, this value depends on the used GPU
 - This will split each video into folders of frames.
 
 ### 2. Annotate Images
