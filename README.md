@@ -1,5 +1,7 @@
 # SAM2-Labeling-tool
-
+A simple labeling tool to help annotate frames in video data for segmentation tasks.
+It is based on SAM2 model: the user is prompted to sparsly annotate a set of randomly selected images, and this annotation is propagate through the dataset, using SAM2.
+![image info](./Images/annotation_tool.png)
 ## Overview
 
 This repository provides a semi-automatic labeling pipeline for video and image datasets using the SAM2 segmentation model. It enables users to:
